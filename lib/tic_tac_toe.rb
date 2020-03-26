@@ -89,8 +89,6 @@ class TicTacToe
     end
   end
 
-end
-
 def play
     @board = Array.new(9, " ")
     # Play until someone wins or there is a draw
