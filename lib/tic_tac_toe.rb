@@ -58,7 +58,7 @@ class TicTacToe
   end
   
   def current_player
-    @board.count % 2 == 0? "X" : "O"
+    
     
     
     
