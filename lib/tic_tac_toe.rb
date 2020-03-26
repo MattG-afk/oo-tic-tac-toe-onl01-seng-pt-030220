@@ -73,6 +73,10 @@ class TicTacToe
     return a || b
   end
   
+  def draw?
+    !won? && full?
+  end
+  
   
     
     
