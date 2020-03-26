@@ -102,7 +102,5 @@ def play
     # If yes, then #play again
     gets.strip.downcase == "y" || gets.strip.downcase == "yes" ? play : puts("Goodbye!")
   end
-
-    
-    
+  
 end
