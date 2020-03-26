@@ -81,6 +81,9 @@ class TicTacToe
     !@board.any?{|x| x == "" || x == " "}
   end
   
+  def over?
+    won? || draw?
+  end
   
   def winner
     if won?
