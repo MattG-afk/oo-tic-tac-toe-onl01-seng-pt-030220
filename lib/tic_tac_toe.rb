@@ -81,6 +81,7 @@ class TicTacToe
     !@board.any?{|x| x == "" || x == " "}
   end
   
+  
   def winner
     if won?
       @board[won?[0]] == "X" ? "X" : "O"
